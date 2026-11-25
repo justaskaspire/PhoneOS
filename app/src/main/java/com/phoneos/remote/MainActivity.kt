@@ -154,7 +154,7 @@ private fun FeatureRow(title: String, subtitle: String) {
         Modifier.fillMaxWidth().background(Panel, RoundedCornerShape(14.dp)).padding(14.dp),
         verticalAlignment = Alignment.CenterVertically
     ) {
-        Box(Modifier.size(8.dp).background(Accent, RoundedCornerShape(50f)))
+        Box(Modifier.size(8.dp).background(Accent, RoundedCornerShape(50.dp)))
         Spacer(Modifier.width(12.dp))
         Column {
             Text(title, fontWeight = FontWeight.SemiBold, fontSize = 14.sp)
